@@ -81,7 +81,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:paddingLeft="5dp" >
               
                 <TextView
                     android:id="@+id/lblMoney1"
@@ -89,7 +90,7 @@
                     android:layout_height="wrap_content"
                     android:text="1: 100.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -98,8 +99,8 @@
                     android:layout_height="wrap_content"
                     android:text="2: 200.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
-                    android:textStyle="bold"/>
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/lblMoney3"
@@ -107,7 +108,7 @@
                     android:layout_height="wrap_content"
                     android:text="3: 300.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -116,7 +117,7 @@
                     android:layout_height="wrap_content"
                     android:text="4: 500.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -126,7 +127,7 @@
                     android:text="5: 1.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#A7A400"
-                    android:textSize="12dp"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -146,7 +147,7 @@
                     android:layout_gravity="center"
                     android:text="6: 2.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -156,7 +157,7 @@
                     android:layout_gravity="center"
                     android:text="7: 3.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -166,7 +167,7 @@
                     android:layout_gravity="center"
                     android:text="8: 6.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -176,7 +177,7 @@
                     android:layout_gravity="center"
                     android:text="9: 9.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -186,7 +187,7 @@
                     android:text="10: 15.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#A7A400"
-                    android:textSize="12dp"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -203,7 +204,7 @@
                     android:layout_height="wrap_content"
                     android:text="11: 25.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -212,7 +213,7 @@
                     android:layout_height="wrap_content"
                     android:text="12: 30.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -221,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:text="13: 50.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -230,7 +231,7 @@
                     android:layout_height="wrap_content"
                     android:text="14: 80.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textSize="12dp" 
+                    android:textSize="14dp" 
                     android:textStyle="bold"/>
 
                 <TextView
@@ -240,7 +241,7 @@
                     android:text="15: 120.000.000"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="#A7A400"
-                    android:textSize="12dp"
+                    android:textSize="14dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
