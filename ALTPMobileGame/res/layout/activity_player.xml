@@ -71,8 +71,7 @@
     <TableLayout
         android:id="@+id/TableLayout1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="5dp" >
+        android:layout_height="wrap_content" >
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -84,41 +83,51 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical" >
               
-
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/lblMoney1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="1: 100.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView5"
+                    android:id="@+id/lblMoney2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2: 200.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/lblMoney3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3: 300.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/lblMoney4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4: 500.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/lblMoney5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="5: 1.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#A7A400"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -131,43 +140,54 @@
                 
 
                 <TextView
-                    android:id="@+id/textView3"
+                    android:id="@+id/lblMoney6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="6: 2.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/lblMoney7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="7: 3.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView12"
+                    android:id="@+id/lblMoney8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="8: 6.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/lblMoney9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="9: 9.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/lblMoney10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="10: 15.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#A7A400"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -178,39 +198,50 @@
                 android:paddingLeft="10dp" >
 
                 <TextView
-                    android:id="@+id/textView4"
+                    android:id="@+id/lblMoney11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="11: 25.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/lblMoney12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="12: 30.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/lblMoney13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="13: 50.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/lblMoney14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="14: 80.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="12dp" 
+                    android:textStyle="bold"/>
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/lblMoney15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="15: 120.000.000"
-                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#A7A400"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

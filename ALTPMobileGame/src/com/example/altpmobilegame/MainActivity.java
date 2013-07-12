@@ -1,5 +1,7 @@
 package com.example.altpmobilegame;
 
+import android.media.MediaPlayer;
+import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.os.Environment;
 import android.app.Activity;
@@ -13,6 +15,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -54,10 +57,33 @@ public class MainActivity extends Activity {
 		@Override
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
-			Intent intent = new Intent(MainActivity.this, PlayerActivity.class);
-			startActivity(intent);
+			playWelcome();
 		}
 	};
+	
+	public void playWelcome()
+	{
+		try
+		{
+			MediaPlayer mp = MediaPlayer.create(MainActivity.this, R.raw.welcome_altp);
+			mp.start();
+			
+			mp.setOnCompletionListener(new OnCompletionListener() {
+				
+				@Override
+				public void onCompletion(MediaPlayer arg0) {
+					// TODO Auto-generated method stub
+					Intent intent = new Intent(MainActivity.this, PlayerActivity.class);
+					startActivity(intent);
+					
+				}
+			});
+		}
+		catch(Exception e)
+		{
+			Toast.makeText(MainActivity.this, e.getMessage(), 1).show();
+		}
+	}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
